@@ -249,8 +249,8 @@
 </a> 
 <img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
 </a>
-         <p>Copyright 2013 / JusTennis /<a href="http://www.marketrivals.com" rel="external">NaplesTenis</a></p>
-         <h3>by MOBILIZE.INFO</h3>
+         <p>Copyright 2013 / JusTennis /
+
             </div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!-- about ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
