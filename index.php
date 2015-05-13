@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
         <title>NaplesTennis</title>
 		<script src="js/jquery-1.11.2.js"></script>
@@ -13,6 +12,7 @@
 		    	$.mobile.pageLoadErrorMessageTheme = "b";
 			});
 		</script>
+        <meta charset="UTF-8">
 		<script src="js/jquery.mobile-1.4.5.js"></script>
 		<link rel="stylesheet" href="css/slicknav.css" />
 		<script src="js/jquery.slicknav.js"></script>
@@ -101,18 +101,12 @@
 		      	});
 
 		    });
-		   
-			
-			
     	</script>
-    	
 	</head>
 	<body>
 		
 		<?php 
 			include 'settings.php';
-			
-			
 		?>
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1><img src="img/logo.png" alt="LOGO"></h1>
@@ -123,8 +117,6 @@
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
-		  
-
 		  <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
 		  		<!-- Jssor Slider Begin -->
 			  	<div class="callbacks_container">
@@ -198,20 +190,14 @@
 								prostordugme.appendChild(dugme);
 							}
 
-							
-
 							// if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 							// // some code..
 							// }
 
 						</script>
-						
-						
 
 					</div>	   
 				</fieldset>
-
-			
               <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-alt-icon ui-btn-icon-right buttons-radius" href="#about" data-transition="<?php echo $transitionefect ?>">About</a></div>
 				</div>
@@ -234,7 +220,6 @@
 					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-alt-icon ui-btn-icon-right buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
 				</div>				   
 		  </div>
-
             <p><b>Naples Tennis Shop</b></p>
          <p>JusTennisalso known as NaplesTennis.co/ has a long standing reputation as the top tennis store and tennis shop for Naples Florida.</p>
          <p>As our name implies JusTennis specializes in just tennis! Thats All We Do!</p>
@@ -245,12 +230,9 @@
          <p>If you have any questions regarding tennis products or playing tennis in Naples Florida, please stop in or give us a call.</p>
          <h3>Driving Directions</h3>
          <p>Just tennis is conveniently located just south of Vanderbilt Beach Road on the East Side the street; please check our map for easy  Driving Directions .</p>
-         <img src="img/google.png" <a href="https://plus.google.com/113555911016600043954" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1435955903">  
-</a> 
-<img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
-</a>
-         <p>Copyright 2013 / JusTennis /
-
+            <a href="https://plus.google.com/+JustennisNaples/about?hl=sr-ME"> <img  src="img/google.png"  class="slika" alt=""></a>
+            <a href="https://twitter.com/justennisnaples"> <img src="img/twiter.png" class="slika" alt=""></a>
+         <p>©Copyright 2013 / JusTennis /</p>
             </div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!-- about ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -259,8 +241,7 @@
 			<div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
 				<div class="ui-grid-solo ui-alt-icon" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu">
-						<ul id="menu">			
-							
+						<ul id="menu">
 							<li><a href="#apparel" data-transition="<?php echo $transitionefect ?>">Apparel</a></li>
 							<li><a href="#equipment" data-transition="<?php echo $transitionefect ?>">Equipment</a></li>
 							<li><a href="#naples" data-transition="<?php echo $transitionefect ?>">Naples Tennis</a></li>
@@ -269,7 +250,7 @@
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>
 					</section>
-						<img src="img/slika1.jpg" alt="">
+						<img src="img/slika1.jpg" class="slikaa" alt="">
                     <h3>Tennis Shop  Naples Florida</h3>
                     <p>JusTennis is a family owned and operated business specializing in… just tennis! We have an extensive tennis background in racquet and footwear selection, based on over 15 years in the tennis business. The Howe family owned and operated a six court indoor tennis facility in Illinois. After selling their facility, Kay opened and managed the prestigious Atkins Tennis Center for the University of Illinois, serving the men’s and women’s tennis teams and community.</b></p>
                     <p>	The JusTennis staff have strung racquets for tennis professionals, university tennis team players and recreational players as well. All staff members are USRSA (United States Racquet Stringers Association) certified.</p>
@@ -290,20 +271,11 @@
 						<p>	BUSINESS HOURS: 
 						Monday  Saturday
 						10:00 a.m.  6:00 p.m</p>
-						    <img src="img/google.png" <a href="https://plus.google.com/113555911016600043954" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1435955903">  
-</a> 
-<img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
-</a>
-						<h3>ABOUT</h3>
-						<p> Copyright 2015 <a href="http://www.marketrivals.com" rel="external">MarketRivals</a></p>
-								<h3>by MOBILIZE.INFO</h3>
-
-
+                    <a href="https://plus.google.com/+JustennisNaples/about?hl=sr-ME"> <img  src="img/google.png"  class="slika" alt=""></a>
+                    <a href="https://twitter.com/justennisnaples"> <img src="img/twiter.png" class="slika" alt=""></a>
+                    <p>©Copyright 2013 / JusTennis /</p>
                 </div>
-
-			</div>	
-				
-				
+			</div>
 		</div>
 		
 		<!-- end about ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -315,7 +287,6 @@
 					<section id="navigation-menu1">
 						<ul id="menu1">			
 							<li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
-							
 							<li><a href="#equipment" data-transition="<?php echo $transitionefect ?>">Equipment</a></li>
 							<li><a href="#naples" data-transition="<?php echo $transitionefect ?>">Naples Tennis</a></li>
 							<li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
@@ -323,16 +294,12 @@
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>
 					</section>
-
-               
-						<h3>TENNIS APPAREL.</h3>
-						<img src="img/slika2.jpg" alt="">
+						<img src="img/slika2.jpg" class="slikaa" alt="">
 						<h3>Tennis Apparel  Naples Tennis</h3>
                     <p>At JusTennis we know the importance of each element of your tennis game. Comfortable apparel that allows full motion and breathability, socks that provide cushion and help absorb the shock of each quick paced step and sturdy footwear that provides premium support to your foot while you are in motion. Our merchandise has been selected by tennis experts intent on improving your game. Our team members will consult with you on each item to provide you with the best overall tennis apparel.</b></p>
                     <p>	I carried through well with my tennis. I got the respect by usage of the tennis racket. Gabriela Sabatini</p>
                     <p>	LEAVE A REPLY
 						CANCEL REPLY
-
 						You must be logged in to post a comment.</p>
 						<h3>JUSTENNIS CONTACT INFO:</h3>
 						<p>	7700 Tamiami Trail North
@@ -346,20 +313,11 @@
 						<p>	BUSINESS HOURS: 
 						Monday  Saturday
 						10:00 a.m.  6:00 p.m</p>
-						    <img src="img/google.png" <a href="https://plus.google.com/113555911016600043954" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1435955903">  
-</a> 
-<img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
-</a>
-							<h3>TENNIS APPAREL</h3>
-						<p>Copyright 2015 <a href="http://www.marketrivals.com" rel="external">MarketRivals</a></p>
-						<h3>	by MOBILIZE.INFO</h3>
-
-
+                    <a href="https://plus.google.com/+JustennisNaples/about?hl=sr-ME"> <img  src="img/google.png"  class="slika" alt=""></a>
+                    <a href="https://twitter.com/justennisnaples"> <img src="img/twiter.png" class="slika" alt=""></a>
+                    <p>©Copyright 2013 / JusTennis /</p>
                 </div>
-
-			</div>	
-				
-				
+			</div>
 		</div>
 		
 		<!-- end apparel ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -372,23 +330,18 @@
 						<ul id="menu2">			
 							<li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
 							<li><a href="#apparel" data-transition="<?php echo $transitionefect ?>">Apparel</a></li>
-							
 							<li><a href="#naples" data-transition="<?php echo $transitionefect ?>">Naples Tennis</a></li>
 							<li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
 							<li><a href="#blog" data-transition="<?php echo $transitionefect ?>">Blog</a></li>
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>
 					</section>
-
-                    
-						<h3>Equipment.</h3>
-						<img src="img/slika3.jpg" alt="">
+						<img src="img/slika3.jpg" class="slikaa" alt="">
 						<h3>Naples tennis  Equipment</h3>
 						<p>	Every athlete knows how critical the right equipment is to their game. We take pride in our role in helping you determine which tennis equipment is right for you. Each member of our USRSA certified staff can recommend and fit a tennis racquet specific to your exact tennis playing and physical needs. We will equip you with the right gear for your level of play and as your tennis game progresses our staff will make recommendations that will continually improve your tennis play. Our expertise on the wide variety of tennis racquets, strings and even tennis shoes available will enhance your tennis performance.</p>
 						<p>	I let my racquet do the talking. That’s what I am all about, really. I just go out and win tennis matches. Pete Sampras</p>
 						  <p>	LEAVE A REPLY
 						CANCEL REPLY
-
 						You must be logged in to post a comment.</p>
 						<h3>JUSTENNIS CONTACT INFO:</h3>
 						<p>	7700 Tamiami Trail North
@@ -402,22 +355,11 @@
 						<p>	BUSINESS HOURS: 
 						Monday  Saturday
 						10:00 a.m.  6:00 p.m</p>
-						    <img src="img/google.png" <a href="https://plus.google.com/113555911016600043954" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1435955903">  
-</a> 
-<img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
-</a>
-						<h3>Equipment</h3>
-						<p>Copyright 2015 <a href="http://www.marketrivals.com" rel="external">MarketRivals</a></p>
-						<h3>	by MOBILIZE.INFO</h3>
-
-
-
-
+                    <a href="https://plus.google.com/+JustennisNaples/about?hl=sr-ME"> <img  src="img/google.png"  class="slika" alt=""></a>
+                    <a href="https://twitter.com/justennisnaples"> <img src="img/twiter.png" class="slika" alt=""></a>
+                    <p>©Copyright 2013 / JusTennis /</p>
                 </div>
-
-			</div>	
-				
-				
+			</div>
 		</div>
 		
 		<!-- end equipment ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -431,16 +373,12 @@
 							<li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
 							<li><a href="#apparel" data-transition="<?php echo $transitionefect ?>">Apparel</a></li>
 							<li><a href="#equipment" data-transition="<?php echo $transitionefect ?>">Equipment</a></li>
-							
 							<li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
 							<li><a href="#blog" data-transition="<?php echo $transitionefect ?>">Blog</a></li>
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>
 					</section>
-
-                    
-						<h3> NAPLES TENNIS </h3>
-						<img src="img/slika4.jpg" alt="">
+						<img src="img/slika4.jpg" class="slikaa" alt="">
 						<h3>NAPLES TENNIS</h3>
 						<p>	Whether for recreation or high level competition, Naples, Florida is abundant with tennis facilities catering to every level player. For children beginning in the sport, to club players or professionals, JusTennis will provide all your apparel and equipmentand help you navigate the best courts, facilities and programs to accommodate your tennis needs. With over 15 years in the tennis industry we want you to love to tennis as much as we do.</p>
 						<p>	Public tennis centers in Naples are numerous and some of the best anywhere. The Naples Park system is remarkable with groomed soccer fields, sand volleyball, roller hockey rinks, grass infields on baseball diamonds, cloth nets on basketball courts and beautiful hard and clay tennis courts. One of the parks even has a hydrogrid or under surface watering systems enabling uninterrupted play. The local YMCA is a tremendous facility and boasts the Beckler Tennis Center with 10 har-tru courts.</p>
@@ -451,7 +389,6 @@
 						<p>	There’s also a large number of tennis leagues in the Naples area, and making tennis connections is easy. For the avid tennis player, young or old, Naples is the place to be! Please contact us with any questions about tennis in the Naples community.</p>
 						  <p>	LEAVE A REPLY
 						CANCEL REPLY
-
 						You must be logged in to post a comment.</p>
 						<h3>JUSTENNIS CONTACT INFO:</h3>
 						<p>	7700 Tamiami Trail North
@@ -465,22 +402,11 @@
 						<p>	BUSINESS HOURS: 
 						Monday  Saturday
 						10:00 a.m.  6:00 p.m</p>
-						    <img src="img/google.png" <a href="https://plus.google.com/113555911016600043954" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1435955903">  
-</a> 
-<img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
-</a>
-						<h3>Naples Tennis</h3>
-						<p>Copyright 2015	<a href="http://www.marketrivals.com" rel="external">MarketRivals</a> </p>
-						<h3>	by MOBILIZE.INFO</h3>
-
-
-
-
+                    <a href="https://plus.google.com/+JustennisNaples/about?hl=sr-ME"> <img  src="img/google.png"  class="slika" alt=""></a>
+                    <a href="https://twitter.com/justennisnaples"> <img src="img/twiter.png" class="slika" alt=""></a>
+                    <p>©Copyright 2013 / JusTennis /</p>
                 </div>
-
-			</div>	
-				
-				
+			</div>
 		</div>
 		
 		<!-- end naples ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -495,17 +421,12 @@
 							<li><a href="#apparel" data-transition="<?php echo $transitionefect ?>">Apparel</a></li>
 							<li><a href="#equipment" data-transition="<?php echo $transitionefect ?>">Equipment</a></li>
 							<li><a href="#naples" data-transition="<?php echo $transitionefect ?>">Naples Tennis</a></li>
-							
 							<li><a href="#blog" data-transition="<?php echo $transitionefect ?>">Blog</a></li>
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>
 					</section>
-
-                  
 						<p>	SERVICES.
-
 						TENNIS ACCESSORIES
-
 						Need to Tennis accessories?</p>
 						<p>	Don’t worry! JusTennis has you covered with a full range of Tennis Accessories! Tennis bags, balls, sweat bands, elbow braces, hats, sunglasses, grip wrap, dampeners, etc.</p>
 						<h3>TENNIS ACCESSORIES</h3>
@@ -540,93 +461,80 @@
 							Wristbands</p>
 							<h3>TENNIS BRANDS</h3>
 							<p>	We carry top Tennis Brands
+                                    JusTennis prides itself in providing our clients with the top tennis brands names; such as Adidas, Babolat, Wilson, Head, and Prince performance racquets, shoes and apparel.</p>
+                    <h3>TENNIS BRANDS</h3>
+                    <p>	Adidas
+                        Aircast
+                        Babalot
+                        Band-It
+                        Bolle
+                        Eliza Audley
+                        Features
+                        FILA
+                        Frog Togs
+                        Gamma
+                        Head
+                        K-Bell – Sports Socks
+                        K Swiss
+                        KT Tape
+                        LBH
+                        LIJA – LIJAstyle.com
+                        Lucky In-Love
+                        Need-It
+                        Nike
+                        Patella Strap
+                        Prince
+                        Pure Lime
+                        Spiro
+                        Tacky Towel
+                        Tail
+                        Thorlos
+                        Tourna
+                        Volki
+                        Wilson</p>
+                    <h3>TENNIS APPAREL, RACQUETS, SHOES</h3>
+                    <p>	Do you need a new Tennis Racquet or Apparel?
 
-JusTennis prides itself in providing our clients with the top tennis brands names; such as Adidas, Babolat, Wilson, Head, and Prince performance racquets, shoes and apparel.</p>
-				<h3>TENNIS BRANDS</h3>
-				<p>	Adidas
-Aircast
-Babalot
-Band-It
-Bolle
-Eliza Audley
-Features
-FILA
-Frog Togs
-Gamma
-Head
-K-Bell – Sports Socks
-K Swiss
-KT Tape
-LBH
-LIJA – LIJAstyle.com
-Lucky In-Love
-Need-It
-Nike
-Patella Strap
-Prince
-Pure Lime
-Spiro
-Tacky Towel
-Tail
-Thorlos
-Tourna
-Volki
-Wilson</p>
-<h3>TENNIS APPAREL, RACQUETS, SHOES</h3>
-<p>	Do you need a new Tennis Racquet or Apparel?
-
-JusTennis offers a diverse and current stock of men’s, women’s, boy’s and girl’s tennis apparel. JusTennis will attend to your personal style, just give us a call!</p>
-<p>	TENNIS APPAREL
-Bolle
-Eliza Audley
-FILA
-LBH
-LIJA
-Lucky In-Love
-Nike Dry Fit
-Prince Italia
-Pure Lime
-Tail
-TENNIS RACQUETS
-Babalot Tennis Racquets
-Head Tennis Racquets
-Prince Tennis Racquets
-Volki Tennis Racquets
-Wilson Tennis Racquets
-TENNIS SHOES
-Adidas Tennis Shoes
-Babalot Tennis Shoes
-Head Tennis Shoes
-K Swiss Tennis Shoes
-Nike Tennis Shoes
-Prince Tennis Shoes
-Wilson Tennis Shoes
-TENNIS SOCKS
-Features Multi Sport
-K-Bell Sports Socks
-Nike Dry-Fit Tennis Socks
-Thorlos Tennis Socks</p>
-<p>	LEAVE A REPLY
-CANCEL REPLY
-
-You must be logged in to post a comment.</p>
-
-<p>SERVICES</p>
-    <img src="img/google.png" <a href="https://plus.google.com/113555911016600043954" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1435955903">  
-</a> 
-<img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
-</a>
-
-		<p>Copyright 2015 <a href="http://www.marketrivals.com" rel="external">MarketRivals</a></p>
-<h3>by MOBILIZE.INFO</h3>
-
-
+                        JusTennis offers a diverse and current stock of men’s, women’s, boy’s and girl’s tennis apparel. JusTennis will attend to your personal style, just give us a call!</p>
+                    <p>	TENNIS APPAREL
+                        Bolle
+                        Eliza Audley
+                        FILA
+                        LBH
+                        LIJA
+                        Lucky In-Love
+                        Nike Dry Fit
+                        Prince Italia
+                        Pure Lime
+                        Tail
+                        TENNIS RACQUETS
+                        Babalot Tennis Racquets
+                        Head Tennis Racquets
+                        Prince Tennis Racquets
+                        Volki Tennis Racquets
+                        Wilson Tennis Racquets
+                        TENNIS SHOES
+                        Adidas Tennis Shoes
+                        Babalot Tennis Shoes
+                        Head Tennis Shoes
+                        K Swiss Tennis Shoes
+                        Nike Tennis Shoes
+                        Prince Tennis Shoes
+                        Wilson Tennis Shoes
+                        TENNIS SOCKS
+                        Features Multi Sport
+                        K-Bell Sports Socks
+                        Nike Dry-Fit Tennis Socks
+                        Thorlos Tennis Socks</p>
+                    <p>	LEAVE A REPLY
+                        CANCEL REPLY
+                        You must be logged in to post a comment.</p>
+                    <a href="https://plus.google.com/+JustennisNaples/about?hl=sr-ME"> <img  src="img/google.png"  class="slika" alt=""></a>
+                    <a href="https://twitter.com/justennisnaples"> <img src="img/twiter.png" class="slika" alt=""></a>
+                    <p>©Copyright 2013 / JusTennis /</p>
                 </div>
-
-			</div>	
-				
-				
-		</div>
+            </div>
+        </div>
 		
 		<!-- end services ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 			<!-- blog ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -645,11 +553,7 @@ You must be logged in to post a comment.</p>
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>
 					</section>
-
-                 
-                    
-						<h3>Blog</h3>
-						<img src="img/slika5.jpg" alt="">
+						<img src="img/slika5.jpg" class="slikaa" alt="">
 						<h3>How to Watch a Tennis Tournament</h3>
 						<p>	Tennis, like any other sport, uses lots of jargon. Hard core tennis fans think nothing of the terms and use them regularly. But the casual fan might be a bit confused at times trying to figure out some of the terminology used during the telecast of a tournament. Here are explanations of some of the more commonly used terms. Hopefully they will help you better understand, and enjoy, the next tournament you watch.
 Draw– Think NCAA brackets. A draw is the set of brackets that shows who plays whom in a tournament. This might be used as in, “She got a tough draw at the French Open,” meaning the player is set to play some difficult matches. Conversely, if a player gets a good draw or favorable draw , it means he is set up to play less formidable players or players he has had success against in the past.
@@ -671,28 +575,17 @@ Walkover– If a player wins a match in a tournament but then cannot play the ne
 Break– To break serve is to win when your opponent is serving. This is a big deal in professional tennis, when players often dominate when they are serving and matches can turn on a single break. The term up a break means that the player has broken one more time than her opponent during the set. A related term, on serve , means that both players have won all of their service games during a set. A famous example of players struggling to break their opponents was the 5 th set of the 2009 Wimbledon final, when it took Roger Federer until the 30 th game of the set to finally break Andy Roddick and win the set 16-14 (there is no tiebreaker in the 5 th set at Wimbledon). Related terms include break point , break chance , hold serve and back on serve .
 
 by Brad Boeker, a fan of professional tennis for over 30 years. He coaches high school tennis in Illinois.</p>
-<p>	BLOG</p>
-    <img src="img/google.png" <a href="https://plus.google.com/113555911016600043954" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1435955903">  
-</a> 
-<img src="img/twiter.png" <a href="https://twitter.com/justennisnaples" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true" duda_id="1590222023"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1" duda_id="1272882182"></span> 
-</a>
-<p>Copyright 2015 <a href="http://www.marketrivals.com" rel="external">MarketRivals</a></p>
-<h3>by MOBILIZE.INFO</h3>
 
-
-
+                    <a href="https://plus.google.com/+JustennisNaples/about?hl=sr-ME"> <img  src="img/google.png"  class="slika" alt=""></a>
+                    <a href="https://twitter.com/justennisnaples"> <img src="img/twiter.png" class="slika" alt=""></a>
+                    <p>©Copyright 2013 / JusTennis /</p>
                 </div>
-
-			</div>	
-				
-				
+			</div>
 		</div>
 		
 		<!--end blog ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		
 		<!-- contact us ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-		
 		<div id="contactform" data-role="page" data-theme="<?php echo $theme ?>">
 			<div data-role="main" class="ui-content" >
 				<div class="ui-grid-solo ui-alt-icon" data-theme="<?php echo $theme ?>">
@@ -735,10 +628,8 @@ by Brad Boeker, a fan of professional tennis for over 30 years. He coaches high 
 								<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Web Analytics</a></li>
 							</ul>
 					</section>
-					
 				</div>
 			</div>
-		
 		</div>
 <!--page seo///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
